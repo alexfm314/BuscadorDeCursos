@@ -1,3 +1,5 @@
+#!/usr/bin/env php
+
 <?php
 
 use Alexfm314\BuscadorCursos\Buscador;
