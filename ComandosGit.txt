@@ -1,0 +1,15 @@
+git init
+git status
+git add .
+git config --global user.email "alexfm3.14@gmail.com"
+git config --global user.name "Alexandre Moreira"
+git commit -m "Primeiro commit"
+git tag -a v1.0.0
+
+echo "# BuscadorDeCursos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alexfm314/BuscadorDeCursos.git
+git push -u origin main

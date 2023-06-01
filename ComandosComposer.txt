@@ -1,0 +1,7 @@
+composer init
+composer require guzzlehttp/guzzle
+composer require symfony/dom-crawler
+composer require symfony/css-selector
+composer require --dev phpunit/phpunit
+composer require --dev squizlabs/php_codesniffer
+composer require --dev phan/phan
